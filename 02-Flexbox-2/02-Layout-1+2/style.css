@@ -3,6 +3,7 @@
 
 body {
 	font-family: sans-serif;
+  font-size: 8px;
 }
 
 
@@ -16,4 +17,18 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  display: flex;
+}
 
+.levy{
+  width: 50%;
+}
+
+.pravy{
+  width: 50%;
+}
+
+.horni,.dolni {
+  height: 50%
+}

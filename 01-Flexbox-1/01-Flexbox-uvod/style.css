@@ -15,8 +15,38 @@
 
 .kontejner {
     padding: 10px;
-    border: 1px dashed red;
+    border: 10px dashed red;
     background-color: #ffffcc;
+  
 }
 
 /* ---------------------------------------------------- */
+.kontejner {
+    display: flex;
+  
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.ctverecek{
+   
+
+}
+
+
+.prvni{
+    width:150px;
+}
+.druhy{
+   /* width: 50%;*/
+    flex-grow: 1;
+}
+
+.treti {
+   /*order: -1;*/
+   flex-shrink: 2;
+
+}
+.ctvrty{
+    flex-grow: 1;
+}

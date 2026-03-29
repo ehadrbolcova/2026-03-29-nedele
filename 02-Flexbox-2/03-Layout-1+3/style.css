@@ -17,3 +17,14 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.horni {
+  width: 100%;
+}
+
+.prvni, .druhy,.treti{
+  width: 33.333%;
+}
