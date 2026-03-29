@@ -1,0 +1,18 @@
+/* intuitivnejsi box sizing */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+	margin: 20px;
+	font: 16px/1.5 sans-serif ;
+}
+
+/* ------------------------- */
+
+/*
+Stylování checkboxu:
+vlastnost accent-color pro barvu.
+
+Použít appearance: none; pokud si chci checkbox
+vytvořit zcela sám pomocí pseudoelementů, apod.
+*/
